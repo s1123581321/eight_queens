@@ -17,7 +17,7 @@ def write_board_to_file():
             if square == fullSquare:
                 f.write("Q")
             else:
-                f.write(str(square))
+                f.write("-")
             f.write(" ")
         f.write("\n")
     f.write("\n")
